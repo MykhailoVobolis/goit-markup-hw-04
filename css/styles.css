@@ -292,25 +292,28 @@ width: calc((100% - 72px) / 4);
         text-align: center;
 }
 
-.social-icon-list{
+.social-list{
     display: flex;
     gap: 24px;
     justify-content: center;
     margin-top: 8px;
-    /* background-color: aqua; */
 }
 
-.social-icon-list .social-icon{
-    fill: #f4f4fd;
-    background-color: #4d5ae5;
-    border-radius: 50%;
-    padding-top: 12px;
-    padding-bottom: 12px;
+.social-list-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40px;
     height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
 }
 
-.social-icon-list .social-icon:hover{
+.social-list .social-icon{
+    fill: #f4f4fd;
+}
+
+.social-list-link:hover{
     background-color: #404bbf;
 }
 
