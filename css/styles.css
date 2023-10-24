@@ -313,7 +313,7 @@ width: calc((100% - 72px) / 4);
     fill: #f4f4fd;
 }
 
-.social-list-link:hover{
+.social-list-link:hover, .social-list-link:focus{
     background-color: #404bbf;
 }
 
@@ -425,7 +425,6 @@ font-size: 20px;
     margin-top: 16px;
 }
 
-/* !!!это пока не работает!!! */
-.footer-social .social-list .social-list-link:hover{
-    fill: #31d0aa;
+.footer-social .social-list-link:hover, .footer-social .social-list-link:focus{
+    background-color: #31d0aa;
 }
