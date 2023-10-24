@@ -81,6 +81,7 @@ img, svg{
 .navigation-menu{
     display: flex;
     gap: 40px;
+    margin-top: 24px;
 }
 
 .link-navigation{
@@ -92,8 +93,21 @@ img, svg{
     padding-bottom: 24px;
 }
 
+.navigation-menu li:first-child::after{
+    display: block;
+    content: "";
+        height: 4px;
+        border-radius: 2px;
+        margin-top: 20px;
+        /* background-color: #404bbf; */
+}
+
 .link-navigation:hover, .link-navigation:focus {
     color: #404bbf;
+}
+
+.navigation-menu li:first-child:hover::after, .navigation-menu li:first-child:focus::after{
+    background-color: #404bbf;
 }
 
 /* Contacts */
