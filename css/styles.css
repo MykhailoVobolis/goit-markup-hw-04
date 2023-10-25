@@ -97,11 +97,9 @@ img, svg{
 .marker{
     position: relative;
     color: #404bbf;
-    /* background-color: #31d0aa; */
 }
 
 .link-navigation.marker::after{
-    /* display: block; */
     content: "";
     position: absolute;
     left: 0;
@@ -433,14 +431,14 @@ font-size: 20px;
 
 /* Footer */
 
-.footer{
+.footer-section{
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: #2e2f42;
     display: flex;
 }
 
-.footer .container{
+.footer-section .container{
     margin-left: 156px;
 }
 
@@ -474,6 +472,7 @@ font-size: 20px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    margin-bottom: 16px;
 }
 
 .footer-social{
@@ -481,8 +480,8 @@ font-size: 20px;
 }
  
 .footer-social .social-list{
+    display: flex;
     gap: 16px;
-    margin-top: 16px;
 }
 
 .footer-social .social-list-link:hover, .footer-social .social-list-link:focus{
