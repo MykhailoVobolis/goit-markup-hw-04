@@ -161,7 +161,6 @@ img, svg{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    max-width: 1440px;
 }
 
 .hero-button{
